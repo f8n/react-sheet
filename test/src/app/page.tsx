@@ -4,7 +4,8 @@ import Link from 'next/link';
 
 export default function Page() {
   return (
-    <div className="w-scareen h-screen bg-white p-8 flex flex-col justify-center gap-6 items-center">
+    <div className="w-screen h-screen bg-white p-8 flex flex-col gap-6 items-start">
+      <h1 className="text-2xl font-bold mt-8">Vaul examples</h1>
       <Link href="/with-scaled-background">With scaled background</Link>
       <Link href="/without-scaled-background">Without scaled background</Link>
       <Link href="/with-snap-points">With snap points</Link>
@@ -17,6 +18,9 @@ export default function Page() {
       <Link href="/default-open">Default open</Link>
       <Link href="/with-redirect">With redirect</Link>
       <Link href="/different-directions">Different directions</Link>
+
+      <h1 className="text-2xl font-bold mt-8">Rodeo examples</h1>
+      <Link href="/page-scroll">Body scroll</Link>
     </div>
   );
 }
