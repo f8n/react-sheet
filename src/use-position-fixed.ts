@@ -127,9 +127,7 @@ export function usePositionFixed({
     if (nested || !hasBeenOpened) return;
     // This is needed to force Safari toolbar to show **before** the drawer starts animating to prevent a gnarly shift from happening
     if (isOpen) {
-      // avoid for standalone mode (PWA)
-      const isStandalone = window.matchMedia('(display-mode: standalone)').matches;
-      !isStandalone && setPositionFixed();
+      setPositionFixed();
 
       if (!modal) {
         window.setTimeout(() => {
