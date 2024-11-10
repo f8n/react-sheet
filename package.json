@@ -1,5 +1,5 @@
 {
-  "name": "vaul",
+  "name": "@f8n/vaul",
   "version": "1.1.1",
   "description": "Drawer component for React.",
   "main": "./dist/index.js",
