@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import clsx from 'clsx';
 import { Drawer } from 'vaul';
-import { DrawerDirection } from '../types';
+import { DrawerDirection } from '../../../../src/types'
 
 const CenteredContent = () => {
   return (
